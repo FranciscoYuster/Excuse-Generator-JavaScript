@@ -1,4 +1,7 @@
 
+window.onload = () => {
+  //write your code here
+let first = "a";
 let who = ['The dog', 'My grandma', 'The mailman', 'My bird'];
 let action = ['ate', 'peed', 'crushed', 'broke'];
 let what = ['my homework', 'my phone', 'the car'];
@@ -13,7 +16,5 @@ function generadordeExcusas () {
   return randomWho + " " + randomAction + " " + randomWhat + " " + randomWhen; 
 }
 
-window.onload = () => {
-  //write your code here
   document.getElementById("excuse").innerHTML = generadordeExcusas();
 };
